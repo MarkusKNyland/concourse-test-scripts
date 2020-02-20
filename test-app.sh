@@ -1,4 +1,4 @@
 #!/bin/bash
 set -x;
-cd source-code || exit;
+cd  maven-cache-docker-image || exit;
 mvn clean test;
