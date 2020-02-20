@@ -1,4 +1,8 @@
 #!/bin/bash
 set -x;
-cd ../source-code;
+pwd;
+ls -la;
+cd ../;
+pwd;
+ls -la;
 mvn clean test;
